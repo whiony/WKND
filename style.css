@@ -99,12 +99,22 @@ a {
 }
 
 .main-nav a {
-    margin-right: 52px;
+    padding: 15px 20px 13px;
+    margin-right: 12px;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
     line-height: 20px;
     color: #202020;
+    background-color: transparent;
+}
+
+.main-nav a:hover:not(.active) {
+    text-decoration: underline;
+}
+
+.main-nav .active {
+    background-color: #FFEA00;
 }
 
 .big-header .search {
@@ -274,11 +284,16 @@ a {
 }
 
 .small-images-section-row {
-    margin-top: 48px;
+    margin-top: 24px;
     justify-content: space-between;
 }
 
+.small-images-section-first-row {
+    margin-top: 48px;
+}
+
 .small-images-section .images-item {
+    flex: 1;
     margin-right: 20px;
 }
 
@@ -424,4 +439,45 @@ footer .copyright {
     text-transform: uppercase;
     color: rgba(144, 144, 144, 0.5);
     font-size: 14px;
+}
+
+.small-images-section.border-none {
+    margin-bottom: 48px;
+    border-bottom: none;
+}
+
+.underline-title {
+    margin-bottom: 48px;
+}
+
+.members-only {
+    margin-bottom: 67px;
+    padding-bottom: 53px;
+    border-bottom: 2px solid #EBEBEB;
+}
+
+.members-only .sign-call {
+    margin-bottom: 48px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.members-only .members-only-item {
+    margin-right: 20px;
+    text-transform: uppercase;
+    opacity: 0.4;
+}
+
+.members-only .members-only-item h3 {
+    margin: 12px 0;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+.members-only .members-only-item p {
+    font-size: 10px;
+    line-height: 10px;
+    color: #909090;
 }
