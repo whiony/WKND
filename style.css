@@ -46,6 +46,7 @@ a {
 }
 
 .small-header .user-panel img {
+    cursor: pointer;
     margin-right: 10px;
 }
 
@@ -189,6 +190,10 @@ a {
     background-color: #FFEB00;
 }
 
+.yellow-btn:hover {
+    background-color: #F5E200;
+}
+
 .black-btn {
     color: white;
     background-color: #202020;
@@ -230,6 +235,7 @@ a {
 }
 
 .promo-controls .switch-arrows img {
+    cursor: pointer;
     margin-left: 20px;
 }
 
@@ -308,6 +314,7 @@ a {
 }
 
 .small-images-section .images-item img {
+    cursor: pointer;
     display: block;
     width: 100%;
 }
@@ -317,6 +324,14 @@ a {
     font-size: 16px;
     line-height: 28px;
     text-transform: uppercase;
+}
+
+.small-images-section .images-item h3 a {
+    cursor: pointer;
+}
+
+.small-images-section .images-item h3 a:hover {
+    text-decoration: underline;
 }
 
 .small-images-section .images-item p {
@@ -470,6 +485,10 @@ footer .copyright {
     font-weight: normal;
 }
 
+.members-only .sign-call a:hover {
+    text-decoration: underline;
+}
+
 .members-only .members-only-item {
     margin-right: 20px;
     text-transform: uppercase;
@@ -579,6 +598,9 @@ footer .copyright {
 
 .about-us-page .staff-card {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
@@ -593,7 +615,7 @@ footer .copyright {
 .about-us-page .staff-card .employee-position {
     display: inline-block;
     width: 136px;
-    margin-bottom: 34px;
+    height: 48px;
     text-transform: uppercase;
     font-size: 10px;
     line-height: 14px;
