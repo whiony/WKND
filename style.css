@@ -142,6 +142,10 @@ a {
     color: rgba(32, 32, 32, 0.5);
 }
 
+.big-header .search img {
+    cursor: pointer;
+}
+
 .main-promo {
     display: flex;
     flex-direction: row;
@@ -405,6 +409,11 @@ a {
     font-weight: 600;
     font-size: 14px;
     color: rgba(32, 32, 32, 0.5);
+}
+
+.subscription-section .email-btn {
+    display: flex;
+    align-items: center;
 }
 
 footer {
