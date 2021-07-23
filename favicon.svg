@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33">
+  <g id="WKND-favicon-32" transform="translate(-325 -198)">
+    <rect id="background" width="32" height="32" transform="translate(325 198)" fill="#ffea00"/>
+    <g id="WKND-brand-icon" transform="translate(331 207)">
+      <text id="WK" fill="#202020" font-size="20" font-family="BebasNeueBold, Bebas Neue"><tspan x="0" y="18">WK</tspan></text>
+    </g>
+  </g>
+</svg>

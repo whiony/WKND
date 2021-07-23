@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Source Serif Pro";
+  src: url(fonts/SourceSerifPro-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url(fonts/SourceSansPro-Regular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url(fonts/SourceSansPro-Semibold.otf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url(fonts/SourceSansPro-Bold.otf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(fonts/BebasNeue-Bold.ttf);
+  font-weight: 700;
+}
